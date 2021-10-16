@@ -1,41 +1,44 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 a {
-    display: inline-block;
-	color: inherit;
-	text-decoration: none;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
 }
 
 img {
-	max-width: 100%;
-	vertical-align: top;
+  max-width: 100%;
+  vertical-align: top;
 }
 
 body {
-	font-family: 'font', sans-serif;/*указать в каждом из проектов отдельно*/
-	height: 100%;
-	font-size:16px ;/*указать в каждом из проектов отдельно*/
-	color: black;/*указать в каждом из проектов отдельно*/
+  font-family: "font", sans-serif; /*указать в каждом из проектов отдельно*/
+  height: 100%;
+  font-size: 16px; /*указать в каждом из проектов отдельно*/
+  color: black; /*указать в каждом из проектов отдельно*/
 }
 
 ul,
 ol,
-li{
-	list-style: none;
-	margin: 0;
-	padding: 0;
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-li{
-	display: inline-block;
+li {
+  display: inline-block;
 }
 
 h1,
@@ -43,7 +46,18 @@ h2,
 h3,
 h4,
 h5,
-h6{
-	font-weight: inherit;
-	font-size: inherit;
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.container{
+	margin: 0 auto;
+	margin-top: 20px;
+	position: relative;
+	width: 70%;
+	height: 0;
+	padding-bottom: 40%;
+	background: #4c4c4c;
+	border: solid 10px #2c2c2c;
 }
