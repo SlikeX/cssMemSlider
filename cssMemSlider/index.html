@@ -16,54 +16,66 @@
   </head>
 
   <body>
-    <div class="container">
-      <input type="radio" name="images" id="pic-1" />
-      <input type="radio" name="images" id="pic-2" />
-      <input type="radio" name="images" id="pic-3" />
-      <input type="radio" name="images" id="pic-4" />
-      
-      <div class="slide_img" id="one">
-        <img
-          src="/cssMemSlider/cssMemSlider/assets/img/1-Slide.jpg"
-          alt="slide-1"
-        />
-
-        <label for="pic-4" class="pre"></label>
-        <label for="pic-2" class="next"></label>
-      </div>
-      <div class="slide_img" id="two">
-        <img
-          src="/cssMemSlider/cssMemSlider/assets/img/2-Slide.jpg"
-          alt="slide-2"
-        />
-
-        <label for="pic-1" class="pre"></label>
-        <label for="pic-3" class="next"></label>
-      </div>
-      <div class="slide_img" id="three">
-        <img
-          src="/cssMemSlider/cssMemSlider/assets/img/3-Slide.jpg"
-          alt="slide-3"
-        />
-
-        <label for="pic-2" class="pre"></label>
-        <label for="pic-4" class="next"></label>
-      </div>
-      <div class="slide_img" id="four">
-        <img
-          src="/cssMemSlider/cssMemSlider/assets/img/4-Slide.jpg"
-          alt="slide-4"
-        />
-
-        <label for="pic-3" class="pre"></label>
-        <label for="pic-4" class="next"></label>
-      </div>
-
-      <div class="nav">
-        <label for="pic-1" class="dots" id="dot-1"></label>
-        <label for="pic-2" class="dots" id="dot-2"></label>
-        <label for="pic-3" class="dots" id="dot-3"></label>
-        <label for="pic-4" class="dots" id="dot-4"></label>
+    <div class="_container">
+      <div class="slider-container">
+        <input type="radio" class="radio" name="button" id="b1" />
+        <input type="radio" class="radio" name="button" id="b2" />
+        <input type="radio" class="radio" name="button" id="b3" />
+        <input type="radio" class="radio" name="button" id="b4" />
+        <div class="slider__wrapper">
+          <div class="slide_box">
+            <div class="slide next">
+              <img
+                src="/cssMemSlider/cssMemSlider/assets/img/1-Slide.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="/cssMemSlider/cssMemSlider/assets/img/2-Slide.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="/cssMemSlider/cssMemSlider/assets/img/3-Slide.jpg"
+                alt=""
+              />
+            </div>
+            <div class="slide">
+              <img
+                src="/cssMemSlider/cssMemSlider/assets/img/4-Slide.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <div class="td-container">
+          <div class="text-container">
+            <div class="text-box">
+              <div class="text next-text">After my project done...</div>
+              <div class="text">Oooooou my</div>
+              <div class="text">Not a word to mom</div>
+              <div class="text">Have a nice day</div>
+            </div>
+          </div>
+          <div class="dots-container">
+            <div class="dots">
+              <label for="b1" class="dots__item-1">
+                <div class="item-1 item"></div>
+              </label>
+              <label for="b2" class="dots__item-2">
+                <div class="item-2 item"></div>
+              </label>
+              <label for="b3" class="dots__item-3">
+                <div class="item-3 item"></div>
+              </label>
+              <label for="b4" class="dots__item-4">
+                <div class="item-4 item"></div>
+              </label>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
